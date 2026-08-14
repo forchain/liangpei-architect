@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" font-family="-apple-system, sans-serif">
+  <rect width="1100" height="700" fill="#0b1020"/>
+
+  <text x="550" y="25" text-anchor="middle" fill="#56d2c6" font-size="18" font-weight="700">AI 域 · 组件级（红娘 / 分身 / 军师）</text>
+
+  <rect x="20" y="50" width="1060" height="660" rx="14" fill="#0e1640" stroke="#56d2c6" stroke-dasharray="4 3"/>
+
+  <!-- 红娘 -->
+  <rect x="50" y="100" width="300" height="240" rx="10" fill="#112046" stroke="#7c9eff"/>
+  <text x="200" y="125" text-anchor="middle" fill="#7c9eff" font-weight="700" font-size="13">AI 红娘（注册期）</text>
+
+  <rect x="70" y="140" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="130" y="165" text-anchor="middle" fill="#e8ecff" font-size="12">语音采集</text>
+
+  <rect x="210" y="140" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="270" y="165" text-anchor="middle" fill="#e8ecff" font-size="12">ASR (豆包)</text>
+
+  <rect x="70" y="200" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="130" y="225" text-anchor="middle" fill="#e8ecff" font-size="12">Prompt 引擎</text>
+
+  <rect x="210" y="200" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="270" y="225" text-anchor="middle" fill="#e8ecff" font-size="12">DeepSeek-V3</text>
+
+  <rect x="70" y="260" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="130" y="285" text-anchor="middle" fill="#e8ecff" font-size="12">结构化抽取</text>
+
+  <rect x="210" y="260" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="270" y="285" text-anchor="middle" fill="#e8ecff" font-size="12">TTS (豆包)</text>
+
+  <text x="200" y="325" text-anchor="middle" fill="#aab2d5" font-size="11">~30 轮 / 4000 tokens / ≥70 分放行</text>
+
+  <!-- 分身 -->
+  <rect x="400" y="100" width="300" height="240" rx="10" fill="#112046" stroke="#7c9eff"/>
+  <text x="550" y="125" text-anchor="middle" fill="#7c9eff" font-weight="700" font-size="13">AI 分身（运行时）</text>
+
+  <rect x="420" y="140" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="480" y="165" text-anchor="middle" fill="#e8ecff" font-size="12">用户提问</text>
+
+  <rect x="560" y="140" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="620" y="165" text-anchor="middle" fill="#e8ecff" font-size="12">意图识别</text>
+
+  <rect x="420" y="200" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="480" y="225" text-anchor="middle" fill="#e8ecff" font-size="12">资料检索 (RAG)</text>
+
+  <rect x="560" y="200" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="620" y="225" text-anchor="middle" fill="#e8ecff" font-size="12">火山数字人</text>
+
+  <rect x="420" y="260" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="480" y="285" text-anchor="middle" fill="#e8ecff" font-size="12">匿名转发</text>
+
+  <rect x="560" y="260" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="620" y="285" text-anchor="middle" fill="#e8ecff" font-size="12">用户音色克隆</text>
+
+  <text x="550" y="325" text-anchor="middle" fill="#aab2d5" font-size="11">敏感问题解耦（彩礼/房贷/家庭）</text>
+
+  <!-- 军师 -->
+  <rect x="750" y="100" width="300" height="240" rx="10" fill="#112046" stroke="#7c9eff"/>
+  <text x="900" y="125" text-anchor="middle" fill="#7c9eff" font-weight="700" font-size="13">AI 军师（运行时）</text>
+
+  <rect x="770" y="140" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="830" y="165" text-anchor="middle" fill="#e8ecff" font-size="12">双方画像</text>
+
+  <rect x="910" y="140" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="970" y="165" text-anchor="middle" fill="#e8ecff" font-size="12">聊天记录</text>
+
+  <rect x="770" y="200" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="830" y="225" text-anchor="middle" fill="#e8ecff" font-size="12">滑动摘要</text>
+
+  <rect x="910" y="200" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="970" y="225" text-anchor="middle" fill="#e8ecff" font-size="12">DeepSeek-R1</text>
+
+  <rect x="770" y="260" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="830" y="285" text-anchor="middle" fill="#e8ecff" font-size="12">好感度判断</text>
+
+  <rect x="910" y="260" width="120" height="40" rx="6" fill="#1c2750" stroke="#2a3358"/>
+  <text x="970" y="285" text-anchor="middle" fill="#e8ecff" font-size="12">破冰话术</text>
+
+  <text x="900" y="325" text-anchor="middle" fill="#aab2d5" font-size="11">彩蛋：双方同问 → 心有灵犀</text>
+
+  <!-- 共享层 -->
+  <rect x="50" y="380" width="1000" height="80" rx="10" fill="#0a1029" stroke="#56d2c6" stroke-dasharray="4 3"/>
+  <text x="550" y="405" text-anchor="middle" fill="#56d2c6" font-weight="700" font-size="13">共享能力层（被三个 Agent 共用）</text>
+
+  <rect x="80" y="420" width="130" height="30" rx="6" fill="#1c2750"/>
+  <text x="145" y="440" text-anchor="middle" fill="#e8ecff" font-size="11">多 LLM 路由</text>
+
+  <rect x="230" y="420" width="130" height="30" rx="6" fill="#1c2750"/>
+  <text x="295" y="440" text-anchor="middle" fill="#e8ecff" font-size="11">Token 计量</text>
+
+  <rect x="380" y="420" width="130" height="30" rx="6" fill="#1c2750"/>
+  <text x="445" y="440" text-anchor="middle" fill="#e8ecff" font-size="11">Prompt 缓存</text>
+
+  <rect x="530" y="420" width="130" height="30" rx="6" fill="#1c2750"/>
+  <text x="595" y="440" text-anchor="middle" fill="#e8ecff" font-size="11">注入检测</text>
+
+  <rect x="680" y="420" width="130" height="30" rx="6" fill="#1c2750"/>
+  <text x="745" y="440" text-anchor="middle" fill="#e8ecff" font-size="11">JSON Schema</text>
+
+  <rect x="830" y="420" width="180" height="30" rx="6" fill="#1c2750"/>
+  <text x="920" y="440" text-anchor="middle" fill="#e8ecff" font-size="11">流式输出（SSE）</text>
+
+  <!-- 数据流 -->
+  <rect x="50" y="490" width="490" height="180" rx="10" fill="#112046" stroke="#2a3358"/>
+  <text x="295" y="515" text-anchor="middle" fill="#7c9eff" font-weight="700" font-size="13">一次 AI 红娘会话的数据流</text>
+  <text x="70" y="540" fill="#aab2d5" font-size="11">1. wx.login → 后端换 openid + token</text>
+  <text x="70" y="560" fill="#aab2d5" font-size="11">2. wx.startFacialRecognitionVerify</text>
+  <text x="70" y="580" fill="#aab2d5" font-size="11">3. wx.getRecorderManager 采集 16k PCM</text>
+  <text x="70" y="600" fill="#aab2d5" font-size="11">4. WS → ASR → Prompt → LLM 流式 → TTS</text>
+  <text x="70" y="620" fill="#aab2d5" font-size="11">5. 每轮存 ai_sessions(messages jsonb)</text>
+  <text x="70" y="640" fill="#aab2d5" font-size="11">6. 结束 → 结构化抽取 → 写 profiles + bio_vector</text>
+  <text x="70" y="660" fill="#aab2d5" font-size="11">7. 评分 ≥70 → 推送"资料已上线"事件</text>
+
+  <!-- 故障防御 -->
+  <rect x="560" y="490" width="490" height="180" rx="10" fill="#112046" stroke="#ff6e7f"/>
+  <text x="805" y="515" text-anchor="middle" fill="#ff6e7f" font-weight="700" font-size="13">AI 域常见故障 & 防御</text>
+  <text x="580" y="540" fill="#aab2d5" font-size="11">· ASR 静默丢音 → 静音 &gt; 3s 自动提示</text>
+  <text x="580" y="560" fill="#aab2d5" font-size="11">· LLM 超时 → 30s 心跳 + 自动续写</text>
+  <text x="580" y="580" fill="#aab2d5" font-size="11">· Prompt 注入 → 前置审核 + LLM 重写</text>
+  <text x="580" y="600" fill="#aab2d5" font-size="11">· 数字人合规 → 预置形象 + 水印</text>
+  <text x="580" y="620" fill="#aab2d5" font-size="11">· 音色滥用 → 单独授权 + 90 天留存</text>
+  <text x="580" y="640" fill="#aab2d5" font-size="11">· AI 拒答 → 多供应商 fallback</text>
+  <text x="580" y="660" fill="#aab2d5" font-size="11">· 情感越界 → 红线 + JSON Schema</text>
+</svg>
