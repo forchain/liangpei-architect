@@ -108,14 +108,14 @@ groups:
         for: 2m
         annotations:
           severity: critical
-          runbook: docs/runbook/failure-top10.md#1-llm-api-全面不可用
+          runbook: agents/architect/runbook/failure-top10.md#1-llm-api-全面不可用
 
       - alert: LLMSlowLatency
         expr: histogram_quantile(0.95, rate(llm_duration_seconds_bucket[5m])) > 3
         for: 5m
         annotations:
           severity: warning
-          runbook: docs/runbook/failure-top10.md#5-ai-红娘卡在最后一题
+          runbook: agents/architect/runbook/failure-top10.md#5-ai-红娘卡在最后一题
 
   - name: payment
     rules:
@@ -124,7 +124,7 @@ groups:
         for: 1m
         annotations:
           severity: critical
-          runbook: docs/runbook/failure-top10.md#4-微信支付回调掉单
+          runbook: agents/architect/runbook/failure-top10.md#4-微信支付回调掉单
 
   - name: im
     rules:
@@ -133,7 +133,7 @@ groups:
         for: 3m
         annotations:
           severity: warning
-          runbook: docs/runbook/failure-top10.md#3-im-断线消息丢失
+          runbook: agents/architect/runbook/failure-top10.md#3-im-断线消息丢失
 ```
 
 ## 通知渠道
