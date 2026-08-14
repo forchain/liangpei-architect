@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" font-family="-apple-system, sans-serif">
+  <rect width="1100" height="600" fill="#0b1020"/>
+
+  <text x="550" y="25" text-anchor="middle" fill="#56d2c6" font-size="18" font-weight="700">部署拓扑</text>
+
+  <!-- 深圳主区 -->
+  <rect x="20" y="50" width="520" height="380" rx="14" fill="#0e1640" stroke="#56d2c6" stroke-dasharray="6 4"/>
+  <text x="280" y="75" text-anchor="middle" fill="#56d2c6" font-weight="700" font-size="13">Region: 深圳（华南） · 主区</text>
+
+  <rect x="40" y="90" width="230" height="160" rx="10" fill="#112046" stroke="#7c9eff"/>
+  <text x="155" y="110" text-anchor="middle" fill="#7c9eff" font-size="12">可用区 A · 应用层</text>
+  <rect x="60" y="125" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="105" y="148" text-anchor="middle" fill="#e8ecff" font-size="11">Nginx</text>
+  <text x="105" y="162" text-anchor="middle" fill="#aab2d5" font-size="10">× 2</text>
+  <rect x="160" y="125" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="205" y="148" text-anchor="middle" fill="#e8ecff" font-size="11">API GW</text>
+  <text x="205" y="162" text-anchor="middle" fill="#aab2d5" font-size="10">Hono × 2</text>
+  <rect x="60" y="185" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="105" y="208" text-anchor="middle" fill="#e8ecff" font-size="11">WS 进程</text>
+  <text x="105" y="222" text-anchor="middle" fill="#aab2d5" font-size="10">环信 × 2</text>
+  <rect x="160" y="185" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="205" y="208" text-anchor="middle" fill="#e8ecff" font-size="11">Worker</text>
+  <text x="205" y="222" text-anchor="middle" fill="#aab2d5" font-size="10">BullMQ</text>
+
+  <rect x="290" y="90" width="230" height="160" rx="10" fill="#112046" stroke="#7c9eff"/>
+  <text x="405" y="110" text-anchor="middle" fill="#7c9eff" font-size="12">可用区 B · 数据层</text>
+  <rect x="310" y="125" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="355" y="148" text-anchor="middle" fill="#e8ecff" font-size="11">PG 主</text>
+  <text x="355" y="162" text-anchor="middle" fill="#aab2d5" font-size="10">2C4G</text>
+  <rect x="410" y="125" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="455" y="148" text-anchor="middle" fill="#e8ecff" font-size="11">PG 备</text>
+  <text x="455" y="162" text-anchor="middle" fill="#aab2d5" font-size="10">只读</text>
+  <rect x="310" y="185" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="355" y="208" text-anchor="middle" fill="#e8ecff" font-size="11">Redis</text>
+  <text x="355" y="222" text-anchor="middle" fill="#aab2d5" font-size="10">主从</text>
+  <rect x="410" y="185" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="455" y="208" text-anchor="middle" fill="#e8ecff" font-size="11">COS</text>
+  <text x="455" y="222" text-anchor="middle" fill="#aab2d5" font-size="10">同城复制</text>
+
+  <!-- 上海灾备 -->
+  <rect x="560" y="50" width="520" height="380" rx="14" fill="#0e1640" stroke="#56d2c6" stroke-dasharray="6 4"/>
+  <text x="820" y="75" text-anchor="middle" fill="#56d2c6" font-weight="700" font-size="13">Region: 上海（华东） · 灾备 + AI 推理</text>
+
+  <rect x="580" y="90" width="230" height="160" rx="10" fill="#112046" stroke="#7c9eff"/>
+  <text x="695" y="110" text-anchor="middle" fill="#7c9eff" font-size="12">AI 推理集群</text>
+  <rect x="600" y="125" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="645" y="148" text-anchor="middle" fill="#e8ecff" font-size="11">豆包</text>
+  <text x="645" y="162" text-anchor="middle" fill="#aab2d5" font-size="10">Realtime</text>
+  <rect x="700" y="125" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="745" y="148" text-anchor="middle" fill="#e8ecff" font-size="11">火山</text>
+  <text x="745" y="162" text-anchor="middle" fill="#aab2d5" font-size="10">数字人</text>
+  <rect x="600" y="185" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="645" y="208" text-anchor="middle" fill="#e8ecff" font-size="11">DeepSeek</text>
+  <text x="645" y="222" text-anchor="middle" fill="#aab2d5" font-size="10">V3 + R1</text>
+  <rect x="700" y="185" width="90" height="50" rx="6" fill="#1c2750"/>
+  <text x="745" y="208" text-anchor="middle" fill="#e8ecff" font-size="11">Qwen</text>
+  <text x="745" y="222" text-anchor="middle" fill="#aab2d5" font-size="10">Flash/Plus</text>
+
+  <rect x="830" y="90" width="230" height="160" rx="10" fill="#112046" stroke="#7c9eff"/>
+  <text x="945" y="110" text-anchor="middle" fill="#7c9eff" font-size="12">数据合规</text>
+  <rect x="850" y="125" width="190" height="40" rx="6" fill="#1c2750"/>
+  <text x="945" y="143" text-anchor="middle" fill="#e8ecff" font-size="11">腾讯云人脸核身</text>
+  <text x="945" y="157" text-anchor="middle" fill="#aab2d5" font-size="10">实名 + 活体</text>
+  <rect x="850" y="175" width="190" height="40" rx="6" fill="#1c2750"/>
+  <text x="945" y="193" text-anchor="middle" fill="#e8ecff" font-size="11">微信珊瑚内容审核</text>
+  <text x="945" y="207" text-anchor="middle" fill="#aab2d5" font-size="10">免费 + 全场景</text>
+  <rect x="850" y="225" width="190" height="20" rx="6" fill="#1c2750"/>
+  <text x="945" y="240" text-anchor="middle" fill="#aab2d5" font-size="10">阿里云内容安全（音视频）</text>
+
+  <!-- 监控 + CI/CD -->
+  <rect x="40" y="270" width="500" height="160" rx="10" fill="#112046" stroke="#56d2c6"/>
+  <text x="290" y="290" text-anchor="middle" fill="#56d2c6" font-size="12">监控 / 备份</text>
+  <rect x="60" y="305" width="150" height="35" rx="6" fill="#1c2750"/>
+  <text x="135" y="325" text-anchor="middle" fill="#e8ecff" font-size="11">Sentry</text>
+
+  <rect x="220" y="305" width="150" height="35" rx="6" fill="#1c2750"/>
+  <text x="295" y="325" text-anchor="middle" fill="#e8ecff" font-size="11">Prometheus</text>
+
+  <rect x="380" y="305" width="150" height="35" rx="6" fill="#1c2750"/>
+  <text x="455" y="325" text-anchor="middle" fill="#e8ecff" font-size="11">Grafana</text>
+
+  <rect x="60" y="350" width="470" height="30" rx="6" fill="#1c2750"/>
+  <text x="295" y="370" text-anchor="middle" fill="#e8ecff" font-size="11">每日 PG 备份 → OSS（异地复制）</text>
+
+  <rect x="60" y="390" width="470" height="30" rx="6" fill="#1c2750"/>
+  <text x="295" y="410" text-anchor="middle" fill="#ffb547" font-size="11">⚠ 一人开发：单 AZ + 仅 DB 异地灾备</text>
+
+  <rect x="580" y="270" width="500" height="160" rx="10" fill="#112046" stroke="#56d2c6"/>
+  <text x="830" y="290" text-anchor="middle" fill="#56d2c6" font-size="12">CI/CD 流水线</text>
+  <rect x="600" y="305" width="110" height="35" rx="6" fill="#1c2750"/>
+  <text x="655" y="325" text-anchor="middle" fill="#e8ecff" font-size="10">Cursor</text>
+
+  <rect x="720" y="305" width="110" height="35" rx="6" fill="#1c2750"/>
+  <text x="775" y="325" text-anchor="middle" fill="#e8ecff" font-size="10">GH Actions</text>
+
+  <rect x="840" y="305" width="110" height="35" rx="6" fill="#1c2750"/>
+  <text x="895" y="325" text-anchor="middle" fill="#e8ecff" font-size="10">Playwright</text>
+
+  <rect x="600" y="350" width="110" height="35" rx="6" fill="#1c2750"/>
+  <text x="655" y="370" text-anchor="middle" fill="#e8ecff" font-size="10">Maestro</text>
+
+  <rect x="720" y="350" width="110" height="35" rx="6" fill="#1c2750"/>
+  <text x="775" y="370" text-anchor="middle" fill="#e8ecff" font-size="10">Vitest</text>
+
+  <rect x="840" y="350" width="110" height="35" rx="6" fill="#1c2750"/>
+  <text x="895" y="370" text-anchor="middle" fill="#e8ecff" font-size="10">Preview</text>
+
+  <rect x="600" y="395" width="460" height="25" rx="6" fill="#1c2750"/>
+  <text x="830" y="412" text-anchor="middle" fill="#5be38e" font-size="11">✓ 提交 → lint/test/打包 → Preview → 一键发版</text>
+
+  <!-- 总成本 -->
+  <rect x="40" y="450" width="1040" height="120" rx="10" fill="#112046" stroke="#5be38e"/>
+  <text x="560" y="475" text-anchor="middle" fill="#5be38e" font-size="13" font-weight="700">月度成本估算</text>
+
+  <rect x="60" y="490" width="200" height="60" rx="6" fill="#1c2750"/>
+  <text x="160" y="510" text-anchor="middle" fill="#e8ecff" font-size="11">DAU &lt; 1000</text>
+  <text x="160" y="528" text-anchor="middle" fill="#5be38e" font-size="14" font-weight="700">¥1,500–2,500</text>
+  <text x="160" y="543" text-anchor="middle" fill="#aab2d5" font-size="10">早期验证期</text>
+
+  <rect x="280" y="490" width="200" height="60" rx="6" fill="#1c2750"/>
+  <text x="380" y="510" text-anchor="middle" fill="#e8ecff" font-size="11">DAU 1 万</text>
+  <text x="380" y="528" text-anchor="middle" fill="#5be38e" font-size="14" font-weight="700">¥3,000–5,000</text>
+  <text x="380" y="543" text-anchor="middle" fill="#aab2d5" font-size="10">成长期</text>
+
+  <rect x="500" y="490" width="200" height="60" rx="6" fill="#1c2750"/>
+  <text x="600" y="510" text-anchor="middle" fill="#e8ecff" font-size="11">DAU 5 万</text>
+  <text x="600" y="528" text-anchor="middle" fill="#5be38e" font-size="14" font-weight="700">¥8,000–15,000</text>
+  <text x="600" y="543" text-anchor="middle" fill="#aab2d5" font-size="10">规模期</text>
+
+  <rect x="720" y="490" width="320" height="60" rx="6" fill="#1c2750"/>
+  <text x="880" y="510" text-anchor="middle" fill="#e8ecff" font-size="11">成本结构（DAU 1 万）</text>
+  <text x="740" y="528" fill="#aab2d5" font-size="10">云 ¥400 | AI ¥1000 | IM ¥199 | 审核 ¥300</text>
+  <text x="740" y="543" fill="#aab2d5" font-size="10">数字人 ¥500 | 监控 ¥0 | 工具 ¥145</text>
+</svg>

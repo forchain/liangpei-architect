@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" font-family="-apple-system, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7c9eff"/>
+    </marker>
+    <linearGradient id="sys" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1e2a6b"/><stop offset="100%" stop-color="#0e1640"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="620" fill="#0b1020"/>
+
+  <!-- Title -->
+  <text x="550" y="30" text-anchor="middle" fill="#7c9eff" font-size="18" font-weight="700">C4 Level 1 · 良配 AI 婚恋系统 · 系统上下文</text>
+
+  <!-- Left: External Actors -->
+  <text x="105" y="60" text-anchor="middle" fill="#aab2d5" font-size="11">外部 Actor</text>
+  <rect x="20" y="80" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="105" y="105" text-anchor="middle" fill="#e8ecff" font-size="13">单身用户 A（女）</text>
+  <text x="105" y="125" text-anchor="middle" fill="#aab2d5" font-size="11">· 微信小程序/App ·</text>
+
+  <rect x="20" y="180" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="105" y="205" text-anchor="middle" fill="#e8ecff" font-size="13">单身用户 B（男）</text>
+  <text x="105" y="225" text-anchor="middle" fill="#aab2d5" font-size="11">· 微信小程序/App ·</text>
+
+  <rect x="20" y="280" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="105" y="305" text-anchor="middle" fill="#e8ecff" font-size="13">运营 / 客服</text>
+  <text x="105" y="325" text-anchor="middle" fill="#aab2d5" font-size="11">· Web 管理后台 ·</text>
+
+  <rect x="20" y="380" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="105" y="405" text-anchor="middle" fill="#e8ecff" font-size="13">监管 / 公安</text>
+  <text x="105" y="425" text-anchor="middle" fill="#aab2d5" font-size="11">· 算法备案 · 实名核验 ·</text>
+
+  <rect x="20" y="480" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="105" y="505" text-anchor="middle" fill="#e8ecff" font-size="13">第三方支付</text>
+  <text x="105" y="525" text-anchor="middle" fill="#aab2d5" font-size="11">· 微信支付 · Apple IAP ·</text>
+
+  <!-- Center: Core System -->
+  <rect x="430" y="220" width="280" height="220" rx="14" fill="url(#sys)" stroke="#7c9eff" stroke-width="2"/>
+  <text x="570" y="250" text-anchor="middle" fill="#e8ecff" font-size="16" font-weight="700">良配 AI 婚恋系统</text>
+  <text x="570" y="270" text-anchor="middle" fill="#aab2d5" font-size="11">LiangPei · 严肃婚恋匹配</text>
+  <line x1="460" y1="290" x2="680" y2="290" stroke="#2a3358"/>
+  <text x="480" y="310" fill="#56d2c6" font-size="12">· AI 红娘（语音对话）</text>
+  <text x="480" y="330" fill="#56d2c6" font-size="12">· AI 分身（匿名问答）</text>
+  <text x="480" y="350" fill="#56d2c6" font-size="12">· AI 军师（关系诊断）</text>
+  <text x="480" y="370" fill="#56d2c6" font-size="12">· 1v1 匹配 + IM</text>
+  <text x="480" y="390" fill="#56d2c6" font-size="12">· 会员 / 支付 / 审核</text>
+  <text x="480" y="410" fill="#56d2c6" font-size="12">· 数据飞轮（自训练 7B/14B）</text>
+
+  <!-- Right: External Systems -->
+  <text x="995" y="60" text-anchor="middle" fill="#aab2d5" font-size="11">外部系统</text>
+  <rect x="910" y="60" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="995" y="85" text-anchor="middle" fill="#e8ecff" font-size="13">微信开放平台</text>
+  <text x="995" y="105" text-anchor="middle" fill="#aab2d5" font-size="11">· 登录 · 支付 · 人脸核身 ·</text>
+
+  <rect x="910" y="150" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="995" y="175" text-anchor="middle" fill="#e8ecff" font-size="13">LLM 供应商</text>
+  <text x="995" y="195" text-anchor="middle" fill="#aab2d5" font-size="11">· 豆包 · DS · Kimi · Qwen</text>
+
+  <rect x="910" y="240" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="995" y="265" text-anchor="middle" fill="#e8ecff" font-size="13">语音/数字人</text>
+  <text x="995" y="285" text-anchor="middle" fill="#aab2d5" font-size="11">· 豆包 Realtime · 火山</text>
+
+  <rect x="910" y="330" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="995" y="355" text-anchor="middle" fill="#e8ecff" font-size="13">实名 / 内容审核</text>
+  <text x="995" y="375" text-anchor="middle" fill="#aab2d5" font-size="11">· 微信珊瑚 · 阿里云</text>
+
+  <rect x="910" y="420" width="170" height="60" rx="10" fill="#1c2750" stroke="#2a3358"/>
+  <text x="995" y="445" text-anchor="middle" fill="#e8ecff" font-size="13">云基础设施</text>
+  <text x="995" y="465" text-anchor="middle" fill="#aab2d5" font-size="11">· 腾讯云 · COS · CDN</text>
+
+  <!-- Arrows -->
+  <g stroke="#7c9eff" stroke-width="1.4" fill="none" marker-end="url(#arr)">
+    <path d="M190,110 C280,110 350,280 430,300"/>
+    <path d="M190,210 C280,210 350,310 430,330"/>
+    <path d="M190,310 C280,310 350,340 430,360"/>
+    <path d="M190,410 C320,410 360,380 430,380"/>
+    <path d="M190,510 C320,510 360,400 430,400"/>
+    <path d="M710,280 C800,280 850,100 910,90"/>
+    <path d="M710,320 C800,320 850,180 910,180"/>
+    <path d="M710,350 C800,350 850,270 910,270"/>
+    <path d="M710,380 C800,380 850,360 910,360"/>
+    <path d="M710,400 C800,400 850,450 910,450"/>
+  </g>
+
+  <text x="550" y="595" text-anchor="middle" fill="#6a7298" font-size="11">图例：蓝色箭头 = 双向调用</text>
+</svg>
