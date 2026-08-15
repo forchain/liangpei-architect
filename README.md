@@ -10,6 +10,7 @@
 | Agent | 视角 | 状态 | 入口 |
 |---|---|---|---|
 | 🏛️ **架构师**（architect） | 系统架构 / 技术选型 / ADR / Runbook | ✅ 已交付 | [→ agents/architect/README.md](agents/architect/README.md) |
+| 🔬 **调研员**（researcher） | 产品调研 / 事实核实 / 竞品 / 行业 / 方法论 | ✅ 已交付 | [→ agents/researcher/README.md](agents/researcher/README.md) |
 | 📊 产品分析师 | 用户画像 / 竞品 / 商业模型 | ⏳ 待交付 | — |
 | ⚖️ 合规法务 | 个保法 / 算法备案 / 婚介资质 / 数字人合规 | ⏳ 待交付 | — |
 | 💰 财务顾问 | 单用户成本 / 营收模型 / 退款承诺风险 | ⏳ 待交付 | — |
